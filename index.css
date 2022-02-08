@@ -1,0 +1,41 @@
+/* 
+  Some extra CSS to make this demo a bit more organized 
+  and easy to grep. Feel free to ignore. 
+*/
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  color: #1e1e1e;
+  background-color: #ffffff;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#demo-container {
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+.demo-card {
+  height: 200px;
+  width: 250px;
+  border: solid 2px #1e1e1e;
+  padding: 1rem 2rem;
+  margin-right: 2rem;
+  border-radius: 8px;
+}
+
+#native-value, #toolkit-value, #fast-value {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  line-height: 0px;
+}

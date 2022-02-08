@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>FAST Option Value Demo</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="index.css">
+  <script type="module" src="index.js"></script>
+  <script type="module" src="node_modules/@vscode/webview-ui-toolkit/dist/toolkit.js"></script>
+  <script type="module" src="node_modules/@microsoft/fast-components/dist/fast-components.js"></script>
+</head>
+<body>
+  <main>
+    <section id="demo-container">
+      <!-- Native HTML Demo -->
+      <section class="demo-card">
+        <p>Native HTML Demo</p>
+        <p>Value: <span id="native-value"></span></p>
+        <select id="native">
+          <option value="apple">Fruit 1</option>
+          <option value="orange">Fruit 2</option>
+          <option value="">Fruit 3</option>
+        </select>
+      </section>
+  
+      <!-- Webview UI Toolkit Demo -->
+      <section class="demo-card">
+        <p>Webview UI Toolkit Demo</p>
+        <p>Value: <span id="toolkit-value"></span></p>
+        <vscode-dropdown id="toolkit">
+          <vscode-option value="apple">Fruit 1</vscode-option>
+          <vscode-option value="orange">Fruit 2</vscode-option>
+          <vscode-option value="">Fruit 3</vscode-option>
+        </vscode-dropdown>
+      </section>
+  
+      <!-- FAST Components Demo -->
+      <section class="demo-card">
+        <p>FAST Components Demo</p>
+        <p>Value: <span id="fast-value"></span></p>
+        <fast-select id="fast">
+          <fast-option value="apple">Fruit 1</fast-option>
+          <fast-option value="orange">Fruit 2</fast-option>
+          <fast-option value="">Fruit 3</fast-option>
+        </fast-select>
+      </section>
+    </section>
+
+    <p>Based on the native HTML element demo, every demo should have the following label-value pair:</p>
+    <ul>
+      <li>"Fruit 1": "apple"</li>
+      <li>"Fruit 2": "orange"</li>
+      <li>"Fruit 3": "" (empty string)</li>
+    </ul>
+  </main>
+</body>
+</html>
