@@ -9,9 +9,7 @@ Find more details here:
 
 ## Run the reproduction
 
-View the deployed version:
-
-[GitHub Pages]()
+View the deployed version: [GitHub Pages](https://hawkticehurst.github.io/fast-option-bug-reproduction/)
 
 Alternatively, run the reproduction locally:
 
