@@ -5,13 +5,9 @@ This is a tiny reproduction for a bug that was found in the FAST Foundation Opti
 Find more details here: 
 
 - [Toolkit Issue](https://github.com/microsoft/vscode-webview-ui-toolkit/issues/327)
-- [FAST Issue]()
+- [FAST Issue](https://github.com/microsoft/fast/issues/5569)
 
 ## Run the reproduction
-
-View the deployed version: [GitHub Pages](https://hawkticehurst.github.io/fast-option-bug-reproduction/)
-
-Alternatively, run the reproduction locally:
 
 1. Clone this repository to your local machine.
 2. Run `npm install` in the root directory.
